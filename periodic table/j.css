@@ -1,0 +1,71 @@
+body{
+    color: white;
+    background-image: url(foto3.jpg), url(https://4kwallpapers.com/images/walls/thumbs_3t/11090.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    box-sizing: content-box;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    margin: auto;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px; 
+   
+    text-shadow: 0px 8px 10px  rgba(0, 255, 251, 0.584) ;
+}
+.text{
+color: rgb(249, 252, 255);
+font-size: 50px;
+}
+
+main{
+    margin: auto;
+    width: 1500px;
+    height: 550px;
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.427), transparent, rgba(0, 0, 0, 0.345),  rgba(0, 0, 0, 0.721));
+    backdrop-filter: blur(10px); 
+    border-radius: 20px;
+    padding: 50px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(18, 1fr); 
+    grid-template-rows: repeat(9,1fr);
+    grid-gap: 5px;
+    text-align: center; 
+    
+}
+.grid-items{
+    align-items: center;
+    
+    height: 70px;
+    backdrop-filter: blur(5px); 
+    color:white;
+    background-color: transparent;
+    /* padding: 5px; */
+    border-radius: 10px;
+    transition: 0.1s;
+}
+
+.grid-items-space{
+    grid-column: span 16; 
+   
+}
+.grid-items-space-2{
+    grid-column: span 10;
+}
+.grid-items-space-3{
+    grid-column: span 10;
+}
+.grid-items:hover{
+    transform: scale(1.4);
+    border-radius: 8px;
+    /* outline: 3px solid rgb(98, 97, 97); */
+    z-index: 10;
+    box-shadow: 0px 0px 30px -8px rgb(255, 255, 255);
+}
