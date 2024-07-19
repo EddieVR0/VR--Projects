@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUBBLES</title>
+    <link rel="stylesheet" href="c.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="theme-color" content="#317EFB"/>
+</head>
+<body>
+    <header> 
+        <section id="seccion1">
+            <nav id="nav1">
+                <h2 class="titulo-logo">BUBBLES</h2>
+                <section class="container-busqueda">
+                <input class="input-buscar"  type="text" name="query" placeholder="Productos...">
+                <button class="button-buscar" type="submit">Buscar</button>
+            </section>
+                <section class="container-items">
+                <i class="fa-solid fa-cart-shopping" id="car" ></i>
+                <i class="fa-solid fa-user" id="perfil"  ></i>
+                <button class="sign-in">sign in</button>
+                </section>
+            </nav>
+        </section>
+        
+       <section id="seccion2">
+            <nav id="nav2">
+                <select name="productos" id="productosL">
+                    <option value="0">Todas las categorias</option>
+                    <option value="1">Zapatos</option>
+                    <option value="2">Bolsos</option>
+                </select>
+
+            <ul class="ul-inline">
+                <li><a href="perfil.html" class="oferta">Ofertas</a></li>
+                <li><a href="registro.html">Ropa para hombre</a></li>
+                <li><a href="buscar.html">Ropa interior</a></li>
+                <li><a href="carrito.html">Accesorios</a></li>
+            </ul>
+
+         </nav>
+        </section>
+
+       <!--                                LAYOUT                                 -->
+
+
+    <main class="container-layout">
+        
+        <section class="layout-1">
+            <div class="titulo-1">
+             
+                    <h2><span>Marcas top</span></h2>
+                    <h3><span>Gran seleccion de precio y calidad </span></h3>
+            
+            </div>
+            
+            <div><img class="img-layout" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwdZc1p8HOnZrm2Tzs2cwErNlCy0LzjyCn_A&usqp=CAU" alt="Foto-de-producto"></div>
+
+            <div><img class="img-layout" src="https://images.unsplash.com/photo-1598881617056-5b0a88d4cc6b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2VzaSVDMyVCM24lMjBkZSUyMGZvdG9zJTIwZGUlMjBuaWtlJTIwam9yZGFufGVufDB8fDB8fHww" alt="Foto-de-producto"></div>
+
+            <div><img class="img-layout" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Foto-de-producto"></div>
+
+            <div><img class="img-layout" src="https://images.unsplash.com/photo-1513188732907-5f732b831ca8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></div>
+
+            <div><img class="img-layout" src="https://images.unsplash.com/photo-1556906781-9a412961c28c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Foto-de-producto"></div>
+
+            <div><img class="img-layout" src="https://images.unsplash.com/photo-1636718282214-0b4162a154f0?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Foto-de-producto"></div>
+            
+        </section>
+
+        <section class="layout-2">
+            <h2><span>Superventas</span></h2>
+            <h3><span>Obten los mejores descuentos </span></h3>
+            <div class="layout-contenido-2">
+                <img src="https://edit.org/img/blog/hrr-plantillas-moda-ropa-complementos-diseno-editar-editable-editor-carteles-marketing-comunicacion-personalizable.jpg" alt="">
+            </div>
+        </section>
+
+        <section class="layout-3" >
+            <div class="titulo-2">
+            <h2><span>Seguro que te gusta</span></h2>
+            <h3><span>Todos tus productos en un solo lugar </span></h3>
+            </div>
+            
+            <article><img class="img-layout-3" src="https://hips.hearstapps.com/hmg-prod/images/guest-wears-gray-suit-pants-white-shiny-leather-and-black-news-photo-1672833039.jpg?crop=1xw:0.84385xh;center,top&resize=1200:*">
+
+            <img  class="img-layout-3" src="https://cdn.pixabay.com/photo/2020/05/03/19/09/nike-5126389_1280.jpg"></article>
+
+        </section>
+
+    </main>
+    
+    </header>
+
+    <!-- <script>
+        const ProductList = document.getElementById("productosL");
+
+        ProductList.addEventListener('mouseover', () => {
+            ProductList.click();
+        });
+    </script> -->
+    
+</body>
+</html>
