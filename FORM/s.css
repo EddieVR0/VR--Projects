@@ -1,0 +1,124 @@
+body{
+    margin:0;
+    /* background:linear-gradient(rgb(70, 69, 69), black); */
+  background-image: url(https://media.istockphoto.com/id/1332097112/es/foto/el-negro-y-la-plata-son-gris-claro-con-blanco-el-degradado-es-la-superficie-con-plantillas-de.jpg?s=612x612&w=0&k=20&c=YMD67pE-xOdzkFkRI0-pweSMUFjx7dw-_SSYG06mMcs=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.container{ 
+    backdrop-filter: blur(15px);
+    background-color: rgba(64, 2, 93, 0.159);
+    width: 650px;
+    padding-bottom: 20px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 50px -10px rgba(255, 2, 247, 0.79);
+    position: absolute;
+    top: 10px;
+     position: relative;
+    left: 100px;
+    padding: 25px;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+h2{
+    color: rgb(228, 225, 225);
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+   
+    transition: transform 0.4s ease;
+}
+h2:hover{
+    transform: scale(1.1);
+    color: white;
+}
+
+input, textarea, select
+{
+    margin: 0; 
+    margin-top: 30px;
+    margin-left: 15px;
+    min-width: 590px;
+    background-color: transparent;
+    padding: 8px 15px;
+    border: none;
+    border-left: 2px solid rgb(122, 115, 115);
+    border-top: 2px solid rgb(122, 115, 115);;
+    border-radius: 8px;
+    color: white;
+}
+textarea{
+    min-width: 590px;
+    resize: none;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+button{
+    margin-left: 550px;
+    background: transparent;
+    color: rgba(250, 250, 250, 0.718);
+    border-radius: 20%;
+    text-transform: capitalize;
+    padding: 6px;
+    width: 70px;
+    height: 30px;
+    border-top: 0px;
+    box-shadow: 0px 0px 30px rgba(198, 193, 193, 0.099);
+    position: relative;
+    top: 50px;
+    transition: transform 0.3s ease;
+}
+button:hover{
+    transform: scale(1.1);
+    color: white;
+    box-shadow: 0px 0px 8px rgb(255, 255, 255);
+}
+
+label{
+    color: white;
+    font-size: 0.88em;
+    position: relative;
+    bottom: -20px;
+    left: 16px;
+}
+option
+{
+    background-color:rgba(0, 0, 0, 0.831) ;
+}
+.aceptar{
+    position: relative;
+    top:-48px ;
+    left: -45px;
+
+}
+fieldset{
+    padding: 0px 0px 25px 0px;
+    width: 100%;
+    border: 2px solid rgb(112, 109, 109);
+    border-radius:10px;
+}
+legend{
+    text-align: left;
+    color: rgb(144, 146, 148);
+    font-family: sans-serif;
+    margin: 0 12px;
+
+}
+a{
+    font-size: 20px;
+    color: rgb(0, 136, 255);
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+a:hover{
+  
+    color: rgb(250, 253, 255);
+    text-decoration: none;
+}

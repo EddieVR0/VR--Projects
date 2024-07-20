@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title> 
+    <link rel="stylesheet" href="s.css">
+</head>
+<body>
+    <form class="container">
+        <div>
+            <h2>formulario de contacto</h2>
+        </div>
+        <BR>     
+        <fieldset>
+            <legend>INFORMACION BASICA</legend>
+             <div>
+                 <label for="Nombre">Nombre completo</label>
+                 <input type="text" placeholder="Eddie del Valle" id="Nombre">
+             </div>
+     
+              <div>
+                 <label for="email">Email</label>
+                 <input type="email" placeholder="Ejemplo@gmail.com" id="email">
+             </div>
+             <div>
+                 <label for="text">asunto</label>
+                 <input type="text" placeholder="El asunto de tu mensaje" id="email">
+             </div>
+        </fieldset>
+         
+        <br> 
+
+            <!-- datalist-select-option -->
+        <div>   
+            <label for="select">Tipo de usuario</label>
+        <select name="type-of-user" id="select">
+            <option value="user1">Cliente</option>
+            <option value="user2">Empresa</option>
+            <option value="user3">Otros</option>
+        </select>
+        </div>
+        
+        <div>    
+            <label for="select">Tipo de usuario</label>
+            <input type="text" id="select">
+        <datalist name="type-of-user" id="select">
+            <option value="user1">Cliente</option>
+            <option value="user2">Empresa</option>
+            <option value="user3">Otros</option>
+        </datalist>
+        </div>
+
+        <br>
+
+        <div>
+        <!-- textarea -->
+            <label for="mensaje">Mensaje</label>
+            <textarea rows="6" placeholder="Deja un mensaje..." id="mensaje"></textarea>
+
+            <button type="button" aria-placeholder="Enviar">Enviar</button> 
+        </div>
+
+        <div>
+            <label> Acepto  <a href="condicion.html" target="_self">terminos y condiciones.</a>
+                <input type="checkbox" class="aceptar" >
+             </label>
+        
+        </div>
+
+        
+    </div>
+    </form>
+    
+</body>
+</html>
