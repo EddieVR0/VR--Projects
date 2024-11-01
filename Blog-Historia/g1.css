@@ -1,0 +1,339 @@
+body{
+    background-color: rgba(202, 195, 195, 0.249);
+    margin: 0;
+    box-sizing: content-box;
+    scroll-behavior: smooth;
+    --color-texto: rgb(228, 225, 225);
+    
+   
+}
+*{
+    scroll-behavior: smooth;
+}
+.inicio{ 
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+    bottom:250px; 
+    color: white;
+    font: italic small-caps bold 36px/2 cursive;
+}
+.inicio:hover{ 
+    text-shadow: 5px 15px 5px rgba(255, 0, 0, 0.575);
+    transition: 1s;
+}
+
+.fondo{
+    background: url(mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    aspect-ratio: 30 / 9; 
+   
+    box-shadow: 0px 20px 35px 0px rgb(85, 82, 82);
+
+
+}
+
+.foto-cont{
+    /* ? redondo */
+    clip-path: circle(40%);
+    margin-top: 10px;
+    width: 150px;  
+    aspect-ratio: 3.5 / 3; 
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0px 0px 15px 0px rgb(255, 255, 255);
+    transition: transform 0.5s ease;
+    
+}
+.foto-cont:hover{
+    
+    border-radius: 25px;
+    transition: 1s;
+    box-shadow: 0px 0px 15px -10px rgb(5, 101, 108);
+   
+}
+.main{
+   
+    box-sizing: border-box;
+    margin: auto;
+    width: 1400px;
+    display: grid;
+    /* grid-template-rows: repeat( auto-fill,1FR); */ 
+    grid-template-columns: repeat(3,1FR);
+    grid-auto-rows: auto;
+    gap: 100px;
+    padding: 50px;
+    border-radius: 20px;
+    position: relative;
+    bottom:  100px;
+    box-shadow: 0px 0px 15px -5px rgb(5, 101, 108);
+}
+h3{ 
+    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.321);
+}
+a{
+text-decoration: none;
+color: black;
+}
+.cards{
+
+    padding: 10px;
+    border-radius: 25px;
+    /* box-shadow: 0px 0px 15px -5px black; */
+    box-shadow: 3px 8px 10px 0px rgb(182, 180, 180),
+    -8px -5px 13px white;
+    /* border: 5px solid rgb(255, 255, 255); */
+    transition:  2.5s ;
+    z-index: 10;
+}
+/* .cards::before{
+    content: '';
+    position: absolute;
+    background-color:transparent;
+    
+    /* clip-path: polygon(38% 0, 0% 100%, 100% 65%); */
+    /* height: 8px;
+    margin: auto;
+    width: 95%;
+    left: 5px;
+    top: 10px;
+    z-index: -10;
+    overflow: hidden; */
+    
+    /* bottom: -5px; */
+    /* box-shadow: 0 -10px 15px rgb(255, 255, 255); 
+} */ 
+.cards:hover{
+    box-shadow: 0px 0px 15px -5px rgb(5, 101, 108);
+    
+}
+p:hover{
+    box-shadow: 0px 0px 15px -5px rgb(5, 101, 108);
+    /* transform: scale(1.05); */
+    transition: 1s;
+}
+p{
+    text-wrap: pretty;
+}
+p{
+
+    transition: transform 0.3s ease;
+    
+    background-color: var(--color-texto);
+    position: relative;
+    padding: 15px;
+    text-wrap: pretty;
+   
+    border-radius: 15px 15px 15px 0;
+}
+p::after{
+    content: '';
+    position: absolute;
+    background-color:var(--color-texto);
+    
+    clip-path: polygon(38% 0, 0% 100%, 100% 65%);
+    height: 18px;
+    width: 18px;
+    left: -5px;
+    bottom: -5px;
+}
+
+/* ? animaciones cards/c1,c2,c3... */
+
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#c1{
+    
+    animation: mostrar  both;
+    animation-timeline: view();
+    animation-range: cover 8% cover 35%;
+}
+#c2{
+ 
+    animation: mostrar  both;
+    animation-timeline: view();
+    animation-range: cover 14% cover 40%;
+}
+#c3{
+ 
+    animation: mostrar  both;
+    animation-timeline: view();
+    animation-range: cover 18% cover 40%;
+}
+#c4{
+
+    animation: mostrar  both;
+    animation-timeline: view();
+    animation-range: cover 3% cover 35%;
+}
+#c5{
+
+    animation: mostrar  both;
+    animation-timeline: view();
+    animation-range: cover 6% cover 40%;
+}
+#c6{
+ 
+    animation: mostrar  both;
+    animation-timeline: view();
+    animation-range: cover 12% cover 40%;
+}
+
+
+
+/* * gif */
+.gif-signal{
+    transform: rotate(90deg);
+    position: relative;
+    left: 45%;
+    bottom: 90px;
+    width: 100px;
+    
+}
+/* ? tablas o datos */
+
+.table h1{
+    margin-top: 80px;
+    color:white;
+    font: italic small-caps bold 36px/2 cursive;
+    font-size: 30px;
+    text-shadow: 5px 15px 5px rgba(0, 255, 213, 0.218);
+}
+.table{
+    box-shadow: 0px 0px 30px 15px  rgba(5, 101, 108, 0.353);
+    
+    color: white;
+    background-color: rgb(2, 31, 34);
+   margin: auto;
+    display: flex;
+   flex-direction: column;
+   gap: 50px;
+   align-items: center;
+}
+.table strong a{
+    color: white;
+}
+.card2{   
+    padding: 15px;
+    margin: 50px;
+    border-bottom:2px solid ;
+    border-top:2px solid ;
+    border-radius: 8%;
+}
+
+
+@keyframes mostrar {
+    from{
+        opacity: 0;
+        scale: 25%;
+    }
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
+}
+.card2{
+    animation: mostrar  both;
+    animation-timeline: view();
+    animation-range: cover 15% cover 35%;
+}
+
+
+/* ! CARDS FLIP */
+/* .container-card{
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.back, .face{
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0; 
+    transition: 1s;
+}
+.face {
+    transform: perspective(1200px) rotateY(0deg);
+}
+.back {
+    height: 100%;
+    width: 100%;
+    transform: perspective(1200px) rotateY(180deg);
+}
+
+.container-card:active .face{
+    transform: perspective(1200px) rotateY(180deg);   
+}
+.container-card:active .back{
+    transform: perspective(1200px) rotateY(360deg);   
+} */
+
+/* ! TEXTAREA */
+.container-section-textarea{
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    
+    box-sizing:content-box;
+    margin-bottom: 200px;
+    margin-top: 50px;
+    padding: 80px;
+    position: relative;
+    
+}
+#textarea{
+    overflow-y: auto;
+    margin: auto;
+    width: 450px;
+    height: 200px;
+    resize:none;
+    background-color: rgba(182, 180, 180, 0.148);
+    border-radius: 10px;
+    /* box-shadow: 0px 8px 10px 1px rgb(182, 180, 180); */
+    font-family: Arial, sans-serif;
+    padding: 15px;
+    field-sizing: content;
+    /* position: relative; */
+    border: none;
+   
+}
+h2{
+    font-size: 20px;
+}
+
+#textarea:focus{
+
+    background-color: transparent;
+    border: none;
+    transition: 1s;
+    box-shadow: 3px 8px 10px 0px rgb(182, 180, 180),
+    -8px -5px 13px white;
+    border: none;
+    
+    /* box-shadow: 0px 5px 10px 1px #7cb7eb;   */
+    outline:none;
+   
+}
+.textarea-gif{
+    position: absolute;
+ right: 1000px;
+}
+
+/* #textarea:focus{
+    transition: 1s;
+    box-shadow: 0px 5px 10px 1px #7cb7eb;  
+    outline:none;
+   
+} */
+/* ! TERMINAR EL AFTER */
