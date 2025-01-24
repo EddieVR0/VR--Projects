@@ -1,0 +1,195 @@
+/* ! color del cielo #ECEFF1; */
+body {
+    background-color: #0099ff ;
+   position: relative;
+}
+
+.titulo{
+    position: absolute;
+    font-size: 20px;
+    z-index: 100;
+    /* background-color: #ffffff5b; */
+    right: 700px;
+   top: 200px;
+   cursor: pointer;
+}
+
+.information_clouds{
+    cursor: pointer;
+    position:absolute;
+    left: -180px;
+    width: 500px;
+    /* margin-top: 50px; */
+    border-radius: 25px;
+    box-shadow: 5px 5px 30px -5px white;
+   display: none;
+    z-index: 100;
+    backdrop-filter: blur(10px); 
+    background: rgba(255, 255, 255, 0.085);
+    
+  
+}
+.titulo:hover .information_clouds{
+   
+    display: block; 
+     
+}
+
+li{
+    
+    padding-top:20px;
+}
+
+/* ! nubes */
+
+.cloud_1 {
+    position: absolute;
+    right: 680px;
+    /* top: 100px; */
+     height: 180px;
+     aspect-ratio: 1.8;
+     --g: radial-gradient(50% 50%, #000 98%, #0000) no-repeat;
+     mask: var(--g) 100% 100%/30% 60%,var(--g) 70% 0/50% 100%,var(--g) 0 100%/36% 68%,var(--g) 27% 18%/26% 40%,linear-gradient(#000 0 0) bottom/67% 58% no-repeat;
+     background: #ffffff;
+     position: absolute; 
+     
+    bottom:00;
+    animation: mover 120s linear infinite; 
+
+}
+.cloud_2 {
+    position: absolute;
+    right: 680px;
+    /* top: 100px; */
+     height: 180px;
+     aspect-ratio: 1.8;
+     --g: radial-gradient(50% 50%, #000 98%, #0000) no-repeat;
+     mask: var(--g) 100% 100%/30% 60%,var(--g) 70% 0/50% 100%,var(--g) 0 100%/36% 68%,var(--g) 27% 18%/26% 40%,linear-gradient(#000 0 0) bottom/67% 58% no-repeat;
+     background: #ffffff;
+     position: absolute; 
+    margin-top: 300px;
+    animation: mover 15s linear infinite; 
+}
+.cloud_3 {
+    position: absolute;
+    right: 680px;
+    /* top: 100px; */
+     height: 180px;
+     aspect-ratio: 1.8;
+     --g: radial-gradient(50% 50%, #000 98%, #0000) no-repeat;
+     mask: var(--g) 100% 100%/30% 60%,var(--g) 70% 0/50% 100%,var(--g) 0 100%/36% 68%,var(--g) 27% 18%/26% 40%,linear-gradient(#000 0 0) bottom/67% 58% no-repeat;
+     background: #ffffff;
+     position: absolute; 
+    margin-top: 1000px;
+    animation: mover_back 50s linear infinite; 
+}
+.cloud_4 {
+    position: absolute;
+    right: 680px;
+    /* top: 100px; */
+     height: 180px;
+     aspect-ratio: 1.8;
+     --g: radial-gradient(50% 50%, #000 98%, #0000) no-repeat;
+     mask: var(--g) 100% 100%/30% 60%,var(--g) 70% 0/50% 100%,var(--g) 0 100%/36% 68%,var(--g) 27% 18%/26% 40%,linear-gradient(#000 0 0) bottom/67% 58% no-repeat;
+     background: #ffffff;
+     position: absolute; 
+    margin-top: 750px;
+    animation: mover 25s linear infinite;
+}
+.cloud_5 {
+    position: absolute;
+    right: 680px;
+    /* top: 100px; */
+     height: 180px;
+     aspect-ratio: 1.8;
+     --g: radial-gradient(50% 50%, #000 98%, #0000) no-repeat;
+     mask: var(--g) 100% 100%/30% 60%,var(--g) 70% 0/50% 100%,var(--g) 0 100%/36% 68%,var(--g) 27% 18%/26% 40%,linear-gradient(#000 0 0) bottom/67% 58% no-repeat;
+     background: #ffffff;
+     position: absolute; 
+    margin-top: 1600px;
+    animation: mover 60s linear infinite; 
+}
+.cloud_6 {
+    position: absolute;
+    right: 680px;
+    /* top: 100px; */
+     height: 180px;
+     aspect-ratio: 1.8;
+     --g: radial-gradient(50% 50%, #000 98%, #0000) no-repeat;
+     mask: var(--g) 100% 100%/30% 60%,var(--g) 70% 0/50% 100%,var(--g) 0 100%/36% 68%,var(--g) 27% 18%/26% 40%,linear-gradient(#000 0 0) bottom/67% 58% no-repeat;
+     background: #ffffff;
+     position: absolute; 
+  
+    animation: mover_back 25s linear infinite; 
+}
+.cloud_7 {
+    position: absolute;
+    right: 680px;
+    /* top: 100px; */
+     height: 180px;
+     aspect-ratio: 1.8;
+     --g: radial-gradient(50% 50%, #000 98%, #0000) no-repeat;
+     mask: var(--g) 100% 100%/30% 60%,var(--g) 70% 0/50% 100%,var(--g) 0 100%/36% 68%,var(--g) 27% 18%/26% 40%,linear-gradient(#000 0 0) bottom/67% 58% no-repeat;
+     background: #ffffff;
+     position: absolute; 
+    margin-top: 500px;
+    animation: mover_back 50s linear infinite; 
+}
+.cloud_8 {
+    position: absolute;
+    right: 680px;
+    /* top: 100px; */
+     height: 180px;
+     aspect-ratio: 1.8;
+     --g: radial-gradient(50% 50%, #000 98%, #0000) no-repeat;
+     mask: var(--g) 100% 100%/30% 60%,var(--g) 70% 0/50% 100%,var(--g) 0 100%/36% 68%,var(--g) 27% 18%/26% 40%,linear-gradient(#000 0 0) bottom/67% 58% no-repeat;
+     background: #ffffff;
+     position: absolute; 
+    margin-top: 2000px;
+    animation: mover 25s linear infinite; 
+}
+.cloud_9 {
+    position: absolute;
+    right: 680px;
+    /* top: 100px; */
+     height: 180px;
+     aspect-ratio: 1.8;
+     --g: radial-gradient(50% 50%, #000 98%, #0000) no-repeat;
+     mask: var(--g) 100% 100%/30% 60%,var(--g) 70% 0/50% 100%,var(--g) 0 100%/36% 68%,var(--g) 27% 18%/26% 40%,linear-gradient(#000 0 0) bottom/67% 58% no-repeat;
+     background: #ffffff;
+     position: absolute; 
+    margin-top: 1800px;
+    animation: mover_back 50s linear infinite; 
+}
+.cloud_10 {
+    position: absolute;
+    right: 680px;
+    /* top: 100px; */
+     height: 180px;
+     aspect-ratio: 1.8;
+     --g: radial-gradient(50% 50%, #000 98%, #0000) no-repeat;
+     mask: var(--g) 100% 100%/30% 60%,var(--g) 70% 0/50% 100%,var(--g) 0 100%/36% 68%,var(--g) 27% 18%/26% 40%,linear-gradient(#000 0 0) bottom/67% 58% no-repeat;
+     background: #ffffff;
+     position: absolute; 
+    margin-top: 1200px;
+    animation: mover 50s linear infinite; 
+}
+
+
+/* ! animations */
+@keyframes mover {
+    0% {
+        right: -100px; 
+    }
+    100% {
+        right: 100%; 
+    }
+}   
+@keyframes mover_back {
+    0% {
+        left: -100px; 
+    }
+    100% {
+        left: 100%; 
+    }
+}    
